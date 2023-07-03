@@ -6,7 +6,8 @@
 cmake_minimum_required(VERSION 3.18.1)
 
 # Declares and names the project.
-
+set(can_use_assembler TRUE)
+enable_language(ASM)
 project("ollvmdemo")
 
 # Creates and names a library, sets it as either STATIC
