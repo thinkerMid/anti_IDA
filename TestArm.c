@@ -14,11 +14,11 @@ static __attribute__((always_inline)) void Junk_code_001() {
 
 #elif __arm__
 
-    __asm__ __volatile__ (
-            "movw r0, #1001 \t\n"
-                 "movw r12, #2020 \t\n"
-                 "add r0, r0, r12 \t\n"
-                 "bx  lr" );
+    // __asm__ __volatile__ (
+    //         "movw r0, #1001 \t\n"
+    //              "movw r12, #2020 \t\n"
+    //              "add r0, r0, r12 \t\n"
+    //              "bx  lr" );
 
 #endif
 }
